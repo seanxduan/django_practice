@@ -1,7 +1,5 @@
-from django.http import HTTPResponse
+from django.http import HttpResponse
 
-from django.shortcuts import render
 
-# Create your views here.
 def index(request):
-    return HTTPResponse("Hello Sean or Friends of Sean. It's Polls-ening Time!")
+    return HttpResponse("Hello, world. POLLS POLLS POLLS index.")
